@@ -1,3 +1,6 @@
 # noinspection PyShadowingBuiltins,PyUnusedLocal
 def compute(x, y):
-    raise NotImplementedError()
+    return x + y
+
+compute(2, 1)
+
