@@ -6,11 +6,12 @@
 #         assert sum_solution.compute(1, 2) == 3
 
 import unittest
-from solutions.SUM import compute
+from lib.solutions.SUM import sum_solution
 
 class TestMartianRobots(unittest.TestCase):
     def test_compute(self):
-        self.assertEqual(compute(2, 1), 3)
+        self.assertEqual(sum_solution.compute(2, 1), 3)
 
 if __name__ == '__main__':
     unittest.main()
+
