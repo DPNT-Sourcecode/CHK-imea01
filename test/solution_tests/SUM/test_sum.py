@@ -1,5 +1,6 @@
+import sys
+sys.path.append('C:\\Users\\user\\loadToContinue\\accelerate_runner\\lib')
 from solutions.SUM import sum_solution
-
 
 class TestSum():
     def test_sum(self):
@@ -14,5 +15,3 @@ class TestSum():
 
 # if __name__ == '__main__':
 #     unittest.main()
-
-
